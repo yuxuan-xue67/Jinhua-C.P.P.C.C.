@@ -1,0 +1,118 @@
+/* 声明字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    width: 1920px;
+    margin: 0 auto;
+}
+.shortcut-box{
+    height: 60px;
+    background-color: #EEEEEE;
+}
+
+.fl ul{
+    margin-left: 361px;
+}
+.fl ul li{
+    float: left;
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+.fr ul{
+    margin-right: 360px;
+}
+.fr ul li{
+    float: right;
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+/* header module */
+.header{
+    position: relative;
+    height: 376px;
+    /* background-color:pink; */
+}
+.header-title{
+    position: absolute;
+    top: 135px;
+    /* bottom: 111px; */
+    right: 360px;
+    /* background-color: black; */
+}
+.elder-mode{
+    position: absolute;
+    top: 16px;
+    left: 1318px;
+    width: 192px;
+    height: 46px;
+    background-color: #FF9D0D;
+    border-radius: 6px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 24px;
+    /* color:white; */
+    /* font-family: MicrosoftYaHeiSemibold; */
+}
+.elder-mode a{
+    color: white;
+}
+
+/* footer module */
+/* footer1 */
+.footer1{
+    align-items: center;
+    height: 261px;
+    background-color: #F0F7FF;
+}
+.footer1 ul{
+    padding-top: 24px;
+    /* padding-left: 356px; */
+}
+.footer1 ul li{
+    display: flex;
+    flex-wrap: wrap ;
+    align-content: flex-start;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+/* 用flex将table水平到标题的右侧而不是下方 */
+.footer1 table{
+    margin-left: 21px;
+    border-spacing: 0 ;
+}
+.footer1 table td{
+    padding: 0 32px 16px 0;
+}
+.footer1 table tr:last-child td{
+    padding: 0 32px 0 0;
+}
+
+.footer1-img ul li{
+    float: left;
+    margin-right: 6px;
+    margin-top: -30px;
+}
+
+.copyright{
+    text-align: center;
+    height: 191px;
+    background-color: #f5f9fa;
+}
